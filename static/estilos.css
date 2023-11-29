@@ -1,0 +1,151 @@
+body{
+background-color: #EAF2F8;
+margin: 40;
+padding: 40;
+}
+
+.form__index{
+    background-color: #F0F0F0;
+    padding: 8px;
+    width: 8px
+    border: solid 8px;
+    max-width: 6000px;
+}
+.form__submit1{
+   background: #9B59B6 ;
+   color: #fff;
+   margin-bottom: 20px;
+   font-family: "Arial, sans-serif";
+   font-size: 20px;
+   padding: 8px;
+   border: solid;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin-right: 40px;
+}
+.form__submit2{
+   background: #4CAF50;
+   color: #fff;
+   margin-bottom: 20px;
+   font-family: "Arial, sans-serif";
+   font-size: 20px;
+   padding: 8px;
+   border: solid;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 200px;
+}
+
+.form__form1{
+    background-color: white;
+    border-radius: 4px;
+    padding: 2px;
+    width: 450px;
+
+}
+.form__boton1{
+    border: solid 1px;
+    padding-left: 10px;
+    border-color: grey;
+    border-radius: 4px;
+    width: 430px;
+    height: 25px;
+}
+
+.form__body1{
+    background-color: #F0F0F0;
+    padding: 8px;
+    width: 8px
+    border: solid 8px;
+    max-width: 600px;
+    position: relative;
+}
+
+.form__p1{
+    margin-top: 0px;
+    transform: translateY(13px);
+    margin-left: 160px;
+    position: relative;
+    color: grey;
+}
+.form__p2{
+    margin-top: 0px;
+    transform: translateY(13px);
+    margin-left: 150px;
+    position: relative;
+    color: grey;
+}
+.form__p3{
+    margin-top: 0px;
+    transform: translateY(13px);
+    margin-left: 70px;
+    position: relative;
+    color: grey;
+}
+.form__calcular1{
+   background: #3866f2;
+   color: #fff;
+   font-weight:300;
+   font-size: 1rem;
+   padding: 8px;
+   border: solid;
+   border-radius: 8px;
+   margin-left: 180px;
+}
+
+
+
+
+.form__body2{
+    background-color: #F0F0F0;
+    padding: 8px;
+    width: 400px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.form__form2{
+    background-color: white;
+    border-radius: 4px;
+    padding: 2px;
+    width: 350px
+}
+.form__L1{
+    margin-top: 0px;
+    transform: translateY(13px);
+    margin-left: 110px;
+}
+.form__L2{
+    margin-top: 0px;
+    transform: translateY(13px);
+    margin-left: 100px;
+}
+.form__boton2 {
+    border: solid 1px;
+    padding: 10px; /* Aumentado el relleno para hacer el botón más visible */
+    border-color: grey;
+    border-radius: 4px;
+    width: 330px;
+    height: 10px; /* Aumentado la altura para hacer el botón más grande */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3498db; /* Cambiado el color de fondo a azul */
+    color: #fff; /* Cambiado el color del texto a blanco */
+    cursor: pointer; /* Cambiado el cursor al estilo de puntero */
+}
+.form__calcular2{
+   background: #3866f2;
+   color: #fff;
+   font-weight:300;
+   font-size: 1rem;
+   padding: 8px;
+   border: solid;
+   border-radius: 8px;
+   margin-left: 120px;

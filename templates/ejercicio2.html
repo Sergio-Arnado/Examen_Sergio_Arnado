@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body class="form__body2">
+    <h1 class="form__titulo2">Inicio de Sesión</h1>
+
+    {% if mensaje %}
+        <h2>Mensaje de Bienvenida</h2>
+        <p>{{ mensaje }}</p>
+    {% else %}
+        <form method="post" class="form__form2" action="{{ url_for('ejercicio2') }}">
+            <label for="usuario" class="form__L1"> ingresa tu nombre:</label>
+            <input type="text" id="usuario" name="usuario" class="form__boton2" required><br>
+
+            <label for="contrasena" class="form__L2">Ingresa tu Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" class="form__boton2" required><br>
+
+            <button type="submit"class="form__calcular2"> verificar </button>
+
+        </form>
+    {% endif %}
+</body>
+</html>
